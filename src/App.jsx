@@ -365,7 +365,7 @@ function App() {
                 >
                   
                     <source
-                    src="/videos/vd-lago.mp4"
+                    src="/videos/vd-lago-small.mp4"
                     type="video/mp4"
                   />
 
