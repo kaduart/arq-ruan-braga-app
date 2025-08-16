@@ -364,8 +364,8 @@ function App() {
                   onError={(e) => console.error("Erro no vídeo:", e)}
                 >
                   
-                  <source
-                    src="https://drive.google.com/uc?export=download&id=1QH5yJxMygVzZ0PGEJaCroWgvSc3bnbKA"
+                    <source
+                    src="/videos/vd-lago.mp4"
                     type="video/mp4"
                   />
 
