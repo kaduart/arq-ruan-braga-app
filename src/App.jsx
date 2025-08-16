@@ -17,6 +17,7 @@ import {
   Instagram,
   Layers,
   Linkedin,
+  LucideHouse,
   Mail,
   MapPin,
   Menu,
@@ -200,7 +201,7 @@ function App() {
             onClick={() => navigate('/')}
           >
             <motion.div whileHover={{ rotate: -5 }}>
-              <Building2 className="h-8 w-8 text-amber-600 group-hover:text-amber-500 transition-colors duration-300" />
+              <LucideHouse className="h-8 w-8 text-amber-600 group-hover:text-amber-500 transition-colors duration-300" />
             </motion.div>
             <motion.span
               className="text-2xl font-serif font-bold text-gray-900 group-hover:text-gray-800 transition-colors duration-300"
@@ -363,7 +364,7 @@ function App() {
                   onError={(e) => console.error("Erro no vídeo:", e)}
                 >
                   <source
-                    src="/videos/vd-jk.webm"
+                    src="/videos/vd-lago.webm"
                     type="video/mp4"
                   />
                   {/* Fallback robusto */}
