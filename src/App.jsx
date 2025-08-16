@@ -363,10 +363,12 @@ function App() {
                   className="w-full h-full object-cover"
                   onError={(e) => console.error("Erro no vídeo:", e)}
                 >
+                  
                   <source
-                    src="/videos/vd-lago.webm"
+                    src="https://drive.google.com/uc?export=download&id=1QH5yJxMygVzZ0PGEJaCroWgvSc3bnbKA"
                     type="video/mp4"
                   />
+
                   {/* Fallback robusto */}
                   <img
                     src="https://images.unsplash.com/photo-1605276374104-dee2a0ed3cd6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
